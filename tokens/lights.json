@@ -1,0 +1,272 @@
+{
+  "_note": "v0.2 DRAFT. Consumed by components/studio.js. Intensities are three.js physical units; tune by eye against the reference look.",
+  "presets": {
+    "studio_dark": {
+      "mood": "calm, premium, hardware close-ups and cutaways",
+      "void": "#0a0f1a",
+      "fog": 0.05,
+      "exposure": 0.95,
+      "env_intensity": 0.3,
+      "key": {
+        "color": "#dfeaff",
+        "intensity": 650,
+        "position": [
+          0,
+          12,
+          3
+        ],
+        "angle": 0.6,
+        "penumbra": 1
+      },
+      "rim": {
+        "color": "#4fd8ff",
+        "intensity": 110,
+        "position": [
+          0,
+          5.0,
+          -13
+        ],
+        "angle": 0.8,
+        "penumbra": 1
+      },
+      "accent": {
+        "color": "#ff8a2b",
+        "intensity": 14,
+        "position": [
+          3.2,
+          1.3,
+          5
+        ],
+        "distance": 14
+      },
+      "bloom": {
+        "strength": 0.32,
+        "radius": 0.5,
+        "threshold": 1.0
+      },
+      "dof": {
+        "aperture": 0.00015,
+        "maxblur": 0.006
+      },
+      "floor": {
+        "reflection_dim": 0.7,
+        "grid_alpha": 0.2
+      }
+    },
+    "studio_data": {
+      "mood": "data work: tables, pipelines, cleaning. Amber accent, calm cyan rim",
+      "void": "#0a0f1a",
+      "fog": 0.05,
+      "exposure": 0.95,
+      "env_intensity": 0.3,
+      "key": {
+        "color": "#dfeaff",
+        "intensity": 650,
+        "position": [
+          0,
+          12,
+          3
+        ],
+        "angle": 0.6,
+        "penumbra": 1
+      },
+      "rim": {
+        "color": "#4fd8ff",
+        "intensity": 90,
+        "position": [
+          0,
+          5.0,
+          -13
+        ],
+        "angle": 0.8,
+        "penumbra": 1
+      },
+      "accent": {
+        "color": "#ffc83d",
+        "intensity": 22,
+        "position": [
+          -3.4,
+          1.6,
+          5
+        ],
+        "distance": 14
+      },
+      "bloom": {
+        "strength": 0.32,
+        "radius": 0.5,
+        "threshold": 1.0
+      },
+      "dof": {
+        "aperture": 0.00015,
+        "maxblur": 0.006
+      },
+      "floor": {
+        "reflection_dim": 0.7,
+        "grid_alpha": 0.2
+      }
+    },
+    "alert_red": {
+      "mood": "breach, outage, attack: red key pulse, tight and tense [TUNE, untested]",
+      "void": "#0b0a10",
+      "fog": 0.05,
+      "exposure": 0.95,
+      "env_intensity": 0.3,
+      "key": {
+        "color": "#ffd6d6",
+        "intensity": 520,
+        "position": [
+          0,
+          12,
+          3
+        ],
+        "angle": 0.6,
+        "penumbra": 1
+      },
+      "rim": {
+        "color": "#ff4d5e",
+        "intensity": 160,
+        "position": [
+          0,
+          5.0,
+          -13
+        ],
+        "angle": 0.8,
+        "penumbra": 1
+      },
+      "accent": {
+        "color": "#ff4d5e",
+        "intensity": 26,
+        "position": [
+          3.2,
+          1.3,
+          5
+        ],
+        "distance": 14
+      },
+      "bloom": {
+        "strength": 0.4,
+        "radius": 0.5,
+        "threshold": 1.0
+      },
+      "dof": {
+        "aperture": 0.00015,
+        "maxblur": 0.006
+      },
+      "floor": {
+        "reflection_dim": 0.7,
+        "grid_alpha": 0.2
+      }
+    },
+    "diagram_bright": {
+      "mood": "networking diagrams: brighter, colour-coded zones, readable labels [TUNE, untested]",
+      "void": "#1a2434",
+      "fog": 0.05,
+      "exposure": 1.15,
+      "env_intensity": 0.55,
+      "key": {
+        "color": "#dfeaff",
+        "intensity": 800,
+        "position": [
+          0,
+          12,
+          3
+        ],
+        "angle": 0.6,
+        "penumbra": 1
+      },
+      "rim": {
+        "color": "#4fd8ff",
+        "intensity": 60,
+        "position": [
+          0,
+          5.0,
+          -13
+        ],
+        "angle": 0.8,
+        "penumbra": 1
+      },
+      "accent": {
+        "color": "#4fd8ff",
+        "intensity": 14,
+        "position": [
+          3.2,
+          1.3,
+          5
+        ],
+        "distance": 14
+      },
+      "bloom": {
+        "strength": 0.22,
+        "radius": 0.5,
+        "threshold": 1.0
+      },
+      "dof": {
+        "aperture": 0.00015,
+        "maxblur": 0.006
+      },
+      "floor": {
+        "reflection_dim": 0.7,
+        "grid_alpha": 0.2
+      }
+    },
+    "ai_violet": {
+      "mood": "AI: violet key, mint accent, glowing lattice [TUNE, untested]",
+      "void": "#0c0a18",
+      "fog": 0.05,
+      "exposure": 0.95,
+      "env_intensity": 0.3,
+      "key": {
+        "color": "#e3d7ff",
+        "intensity": 650,
+        "position": [
+          0,
+          12,
+          3
+        ],
+        "angle": 0.6,
+        "penumbra": 1
+      },
+      "rim": {
+        "color": "#9b6bff",
+        "intensity": 140,
+        "position": [
+          0,
+          5.0,
+          -13
+        ],
+        "angle": 0.8,
+        "penumbra": 1
+      },
+      "accent": {
+        "color": "#3dff8f",
+        "intensity": 16,
+        "position": [
+          -3.2,
+          1.4,
+          5
+        ],
+        "distance": 14
+      },
+      "bloom": {
+        "strength": 0.32,
+        "radius": 0.5,
+        "threshold": 1.0
+      },
+      "dof": {
+        "aperture": 0.00015,
+        "maxblur": 0.006
+      },
+      "floor": {
+        "reflection_dim": 0.7,
+        "grid_alpha": 0.2
+      }
+    }
+  },
+  "_status": {
+    "studio_dark": "tested in scenes/server-hall",
+    "studio_data": "defined, untested",
+    "alert_red": "defined, untested",
+    "diagram_bright": "defined, untested",
+    "ai_violet": "defined, untested"
+  }
+}

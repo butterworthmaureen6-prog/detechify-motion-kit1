@@ -1,0 +1,12 @@
+{
+  "name": "detechify-motion-kit",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:scene": "node tools/build-scene.mjs",
+    "still": "node tools/render-still.cjs"
+  },
+  "dependencies": { "three": "^0.170.0" },
+  "devDependencies": { "esbuild": "^0.24.0" }
+}

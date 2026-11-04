@@ -1,0 +1,123 @@
+{
+  "name": "detechify-motion-kit",
+  "version": "0.3.2",
+  "status": "draft",
+  "purpose": "Reference kit for Claude Design: universal generated background library, still-image motion recipes, transcript-synced text",
+  "formats": {
+    "short": {
+      "aspect": "9:16",
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": 60,
+      "layout": "layouts/shorts-9x16.md"
+    },
+    "video": {
+      "aspect": "16:9",
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "layout": "layouts/youtube-16x9.md"
+    }
+  },
+  "entry_points": {
+    "rules": "STYLE_BIBLE.md",
+    "header": "prompts/claude-design-header.md",
+    "scene_block": "prompts/scene-block-template.md",
+    "transcript_format": "prompts/transcript-format.md",
+    "licences": "LICENSES.md",
+    "images": "ui/screenshots/CATALOG.md",
+    "gemini_prompts": "prompts/gemini-background-pack.md",
+    "still_motion": "motion/still-motion.md"
+  },
+  "paths": {
+    "tokens": {
+      "palette": "tokens/palette.json",
+      "lights": "tokens/lights.json"
+    },
+    "components": {
+      "studio": "components/studio.js",
+      "rack": "components/rack.js",
+      "data_streams": "components/dataStreams.js",
+      "camera_flow": "components/cameraFlow.js",
+      "host": "components/host.js",
+      "transcript_text": "components/transcriptText.js"
+    },
+    "scenes": {
+      "root": "scenes/",
+      "available": [
+        "scenes/server-hall/"
+      ],
+      "spec_template": "scenes/SPEC_TEMPLATE.md"
+    },
+    "models": "models/",
+    "hdri": "hdri/",
+    "textures": "textures/",
+    "props": "props/",
+    "ui": "ui/screenshots/",
+    "motion": {
+      "camera": "motion/camera.md",
+      "transitions": "motion/transitions.md"
+    },
+    "tools": {
+      "build": "tools/build-scene.mjs",
+      "still": "tools/render-still.cjs",
+      "srt": "tools/srt-to-transcript.mjs"
+    },
+    "sets": {
+      "root": "sets/",
+      "available": [
+        "sets/server-hall.js"
+      ]
+    },
+    "topics": {
+      "data-cleaning": "topics/data-cleaning.md",
+      "networking": "topics/networking.md",
+      "cybersecurity": "topics/cybersecurity.md",
+      "ai": "topics/ai.md",
+      "cloud-infra": "topics/cloud-infra.md"
+    },
+    "images": {
+      "folder": "ui/screenshots/",
+      "catalog": "ui/screenshots/CATALOG.md"
+    }
+  },
+  "scenes_planned": [
+    "data-cleaning",
+    "networking",
+    "cybersecurity",
+    "ai"
+  ],
+  "object_families_planned": [
+    "server-rack",
+    "router-switch",
+    "laptop",
+    "phone",
+    "chip",
+    "ssd",
+    "padlock",
+    "firewall"
+  ],
+  "rules": {
+    "third_party_frames_allowed": false,
+    "screenshots_must_be_scrubbed": true,
+    "model_max_mb": 5,
+    "no_runtime_network": true,
+    "every_asset_logged_in": "LICENSES.md"
+  },
+  "light_presets": {
+    "tested": [
+      "studio_dark"
+    ],
+    "defined_untested": [
+      "studio_data",
+      "alert_red",
+      "diagram_bright",
+      "ai_violet"
+    ]
+  },
+  "active_format": "9:16 (1080x1920, 60 fps)"
+}

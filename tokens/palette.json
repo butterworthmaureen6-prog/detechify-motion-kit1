@@ -1,0 +1,27 @@
+{
+  "_note": "v0.2 DRAFT. Starting values for the Branch-Education-style dark studio look with a warm orange brand accent. Replace with measured values as references are studied.",
+  "void": "#0a0f1a",
+  "slate": "#1b2433",
+  "metal_dark": "#11151b",
+  "metal_mid": "#232a35",
+  "metal_light": "#3a4452",
+  "paper": "#f4f1ea",
+  "accent_orange": "#ff8a2b",
+  "data_cyan": "#4fd8ff",
+  "ok_green": "#3dff8f",
+  "warn_amber": "#ffc83d",
+  "alert_red": "#ff4d5e",
+  "ai_violet": "#9b6bff",
+  "topics": {
+    "security": { "base": "void", "accents": ["alert_red", "data_cyan"] },
+    "cloud": { "base": "slate", "accents": ["data_cyan", "paper"] },
+    "data": { "base": "void", "accents": ["warn_amber", "ok_green"] },
+    "ai": { "base": "void", "accents": ["ai_violet", "ok_green"] },
+    "brand": { "base": "void", "accents": ["accent_orange", "data_cyan"] }
+  },
+  "type": {
+    "display": "TBD (clean grotesque, semi-bold)",
+    "code": "TBD (monospace)",
+    "min_size_px_shorts": 36
+  }
+}
